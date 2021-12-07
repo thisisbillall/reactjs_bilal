@@ -7,7 +7,7 @@ const Quiz = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [optionChosen, setOptionChosen] = useState("");
   
-    const {name, score, setScore, gameState, setGameState } = useContext(stateContext);
+    const {name, score, setScore, setGameState } = useContext(stateContext);
    
     const nextQuestionHandler =()=>{
         if(Questions[currentQuestion].ans === optionChosen){
@@ -29,7 +29,7 @@ const Quiz = () => {
     };
     return ( 
         <>
-            <h1>PLAYER : {name}</h1>
+            <h1 className="player-name">PLAYER : {name}</h1>
             <div className="quiz">
                 <h1 className="ques-text">{Questions[currentQuestion].ques}</h1>
                 <div className="options">

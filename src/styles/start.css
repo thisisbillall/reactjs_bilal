@@ -5,10 +5,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 5rem;
-}
-.start {
   padding-top: 5rem;
 }
+
 .start input {
   width: 60%;
   height: 3rem;
@@ -32,4 +31,32 @@
   background-color: midnightblue;
   color: skyblue;
   border: skyblue solid 2px;
+}
+/* responsive */
+@media (max-width: 450px) {
+  .start {
+    margin-top: 0rem;
+    width: 250px;
+    height: 200px;
+    padding-top: 2rem;
+  }
+  .start input {
+    width: 60%;
+    height: 1.5rem;
+    border: 2px skyblue solid;
+    border-radius: 25rem;
+    padding-left: 1rem;
+  }
+  .start button {
+    background-color: skyblue;
+    color: midnightblue;
+    height: 2rem;
+    width: 4rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+  }
 }

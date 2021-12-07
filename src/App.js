@@ -10,9 +10,7 @@ function App() {
   const [name,setName]=useState("");
   const [score,setScore]=useState(0);
   
-  if(!name){
-    alert("Enter name !!")
-  }
+
   return (
 
     <div className="App">
@@ -26,7 +24,6 @@ function App() {
           setScore,
         }}
       >
-      <h1>Welcome to Quiz App!</h1>
       {gameState==="start" && <Start/>}
       {gameState==="quiz" && <Quiz/>}
       {gameState==="end" && <End/>}

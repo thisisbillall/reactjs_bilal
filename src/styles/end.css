@@ -24,6 +24,30 @@
   border: skyblue solid 2px;
 }
 .end h1,
-h3 {
+h2 {
   color: wheat;
+}
+
+@media (max-width: 450px) {
+  .end {
+    padding-top: 3rem;
+    background-color: midnightblue;
+    width: 280px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+  }
+  .restart-btn {
+    background-color: skyblue;
+    color: midnightblue;
+    height: 2rem;
+    width: 5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+  }
 }

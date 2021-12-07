@@ -45,3 +45,40 @@
   color: wheat;
   border: wheat solid 2px;
 }
+
+@media (max-width: 450px) {
+  .quiz {
+    background-color: midnightblue;
+    width: 280px;
+    height: 300px;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+  }
+  * {
+    font-size: small;
+  }
+  .options button {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    height: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  .next-btn {
+    margin-top: 1.5rem;
+    background-color: wheat;
+    color: midnightblue;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
