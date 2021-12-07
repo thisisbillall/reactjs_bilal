@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { stateContext } from "../helper/context";
 import Questions from "../helper/questions";
 import "../styles/end.css";
-
 const End = () => {
 
     var dispMsg ="";
@@ -29,12 +28,20 @@ const End = () => {
 
     }
     return ( 
+        <>
         <div className="end">
-            <h1 style={{color}}> {dispMsg}  {name} </h1>
+            <h1 style={{color}}> {dispMsg}  <span style={{color:"orange"}}>{name}</span> </h1>
             <h2>You scored: {score}/{Questions.length}</h2>
             <button className="restart-btn"
-            onClick={resetGame}>Restart</button>
+            onClick={resetGame}>Restart</button><br/>
+            
+            {(score>3 && <a  className="offer-link" href="https://www.instagram.com/upcloudtech/"
+            target="_blank" rel="noreferrer">
+                Best Offers from Upcloud
+            </a>)}
+
         </div>
+        </>
      );
 }
  

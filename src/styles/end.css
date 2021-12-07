@@ -51,3 +51,8 @@ h2 {
     cursor: pointer;
   }
 }
+
+.offer-link {
+  color: whitesmoke;
+  font-size: large;
+}
