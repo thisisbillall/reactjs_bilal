@@ -1,0 +1,35 @@
+.start {
+  background-color: midnightblue;
+  width: 500px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+.start {
+  padding-top: 5rem;
+}
+.start input {
+  width: 60%;
+  height: 3rem;
+  border: 2px skyblue solid;
+  border-radius: 25rem;
+  padding-left: 1rem;
+}
+.start button {
+  background-color: skyblue;
+  color: midnightblue;
+  height: 3rem;
+  width: 6rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.start button:hover {
+  background-color: midnightblue;
+  color: skyblue;
+  border: skyblue solid 2px;
+}

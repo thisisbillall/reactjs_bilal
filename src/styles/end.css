@@ -1,0 +1,29 @@
+.end {
+  background-color: midnightblue;
+  width: 500px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+.restart-btn {
+  background-color: skyblue;
+  color: midnightblue;
+  height: 3rem;
+  width: 6rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.restart-btn:hover {
+  background-color: midnightblue;
+  color: skyblue;
+  border: skyblue solid 2px;
+}
+.end h1,
+h3 {
+  color: wheat;
+}

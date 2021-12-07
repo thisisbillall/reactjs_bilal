@@ -1,0 +1,47 @@
+.quiz {
+  background-color: midnightblue;
+  width: 500px;
+  height: 500px;
+  padding-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+
+.ques-text {
+  color: wheat;
+}
+.options {
+  margin-top: 3rem;
+}
+.options button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  height: 2.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.options button:hover {
+  background-color: slategray;
+  color: whitesmoke;
+}
+.next-btn {
+  margin-top: 3rem;
+  background-color: wheat;
+  color: midnightblue;
+  height: 3rem;
+  width: 6rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.next-btn:hover {
+  background-color: midnightblue;
+  color: wheat;
+  border: wheat solid 2px;
+}
