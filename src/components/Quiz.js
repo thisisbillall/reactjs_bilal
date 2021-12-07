@@ -67,7 +67,7 @@ const Quiz = () => {
                         <button style={{border:"solid 4px red"}} onClick={()=>{selectOption("optC")}}>{Questions[currentQuestion].optC}</button>
                     )
                 ):(
-                    <button onClick={()=>{selectOption("optD")}}>{Questions[currentQuestion].optC}</button>
+                    <button onClick={()=>{selectOption("optC")}}>{Questions[currentQuestion].optC}</button>
                 )}
 
 
